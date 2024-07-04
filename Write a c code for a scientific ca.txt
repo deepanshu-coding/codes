@@ -1,0 +1,70 @@
+// Write a c code for a scientific calculator
+#include <stdio.h>
+#include <math.h>
+int main(){
+float x,y,z;
+printf("Enter the value of x:");
+scanf("%f",&x);
+printf("Enter the value of y:");
+scanf("%f",&y);
+printf("Enter the value of z:");
+scanf("%f",&z);
+// algebraic operations over x,y and z..
+printf("Sum= %f\n",x+y+z);
+printf("Difference= %f\n",x-y-z);
+printf("Product= %f\n",x*y*z);
+printf("Division of x by y= %f\n",x/y);
+printf("Division of x by z= %f\n",x/z);
+printf("x raise to the power y=%f\n",pow(x,y));
+printf("y raise to the power z=%f\n",pow(y,z));
+printf("x raise to the power z=%f\n",pow(x,z));
+printf("y raise to the power x=%f\n",pow(y,x));
+printf("z raise to the power x=%f\n",pow(z,x));
+printf("z raise to the power y=%f\n",pow(z,y));
+printf("square root of x= %f\n",sqrt(x));
+printf("square root of y= %f\n",sqrt(y));
+printf("square root of z= %f\n",sqrt(z));
+printf("cube root of x= %f\n",cbrt(x));
+printf("cube root of y= %f\n",cbrt(y));
+printf("cube root of z= %f\n",cbrt(z));
+//for trigo calculations
+printf("sine of x= %f\n",sin(x));
+printf("arc sine of x= %f\n",asin(x));
+printf("sine of y= %f\n",sin(y));
+printf("arc sine of y= %f\n",asin(y));
+printf("sine of z= %f\n",sin(z));
+printf("arc sine of z= %f\n",asin(z));
+printf("cosine of x= %f\n",cos(x));
+printf("arc cosine of x= %f\n",acos(x));
+printf("cosine of y= %f\n",cos(y));
+printf("arc cosine of y= %f\n",acos(x));
+printf("cosine of z= %f\n",cos(z));
+printf("arc cosine of z= %f\n",acos(z));
+printf("tangent of x= %f\n",tan(x));
+printf("arc tangent of x= %f\n",atan(x));
+printf("tangent of y= %f\n",tan(y));
+printf("arc tangent of x= %f\n",atan(x));
+printf("tangent of z= %f\n",tan(z));
+printf("arc tangent of x= %f\n",atan(x));
+// lagarithmc operations over numbers
+printf("log to the base 10 of x= %f\n",log10(x));
+printf("log to the base 10 of y= %f\n",log10(y));
+printf("log to the base 10 of z= %f\n",log10(z));
+printf("natural log of x= %f\n",log(x));
+printf("natural log of y= %f\n",log(y));
+printf("natural log of z= %f\n",log(z));
+printf("exponent of x= %f\n",exp(x));
+printf("exponent of y= %f\n",exp(y));
+printf("exponent of z= %f\n",exp(z));
+// some miscellaneous or functional values of numbers
+printf("ceil of x= %f\n",ceil(x));
+printf("floor of x= %f\n",floor(x));
+printf("ceil of y= %f\n",ceil(y));
+printf("floor of y= %f\n",floor(y));
+printf("ceil of z= %f\n",ceil(z));
+printf("floor of z= %f\n",floor(z));
+// some miscelleneous code
+printf("division= %f\n",(x/y)/z);
+printf("square root of sum of product of division of x,y and z= %f\n",sqrt((x+y+z)*x*y*z)/x/y/z);
+return 0;
+}
